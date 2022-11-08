@@ -1,0 +1,71 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+        <title>Anduril</title>
+    </head>
+    <body>
+        <header>
+            <nav class="header__navbar">
+                <input id="menu" type="checkbox" id="menu">
+                <label class="menuLabel "for="menu"> ☰ </label>
+                    <ul>
+                        <li class="page"><a href="../index.html">Home</a></li>
+                        <li class="page"><a href="../pages/libros.html">Libros</a></li>
+                        <li class="page"><a href="../pages/peliculas.html">Peliculas</a></li>
+                        <li class="page"><a href="../pages/serie.html">Serie</a></li>
+                        <li class="page"><a href="../pages/hazte-fan.html">Hazte fan</a></li>
+                    </ul>             
+                </nav>   
+                <h1 class="headerTitle">ANDURIL</h1> 
+                <img src="../assets/images/logo.jpg" class="header__logo" alt="Anduril">             
+        </header>   
+
+        <main>
+            <h2 class="pageTitle">Hazte Fan de Anduril</h2>
+                <p class="text__page">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus dolore ad impedit aperiam, neque suscipit debitis, quidem voluptatem, repellendus nulla culpa. Delectus eos error dignissimos odio numquam alias adipisci!</p><p class="text__page">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus dolore ad impedit aperiam, neque suscipit debitis, quidem voluptatem, repellendus nulla culpa. Delectus eos error dignissimos odio numquam alias adipisci!</p>
+               
+            <form class="form" action="./form.js" method="" enctype="multipart/form-data">
+                <div class="data">
+                    <input type="text" name="name" placeholder="Nombre" size="40">
+                    <input type="text" name="lastName" placeholder="Apellido" size="40">
+                </div>
+                <div class="data">
+                    <input type="text" name="email" placeholder="Email" size="40">   
+                    <input type="text" name="country" placeholder="País"size="40"> 
+                </div>             
+                
+            <fieldset>
+                <p class="fieldset__text">¿Desea recibir información acerca de nuevas publicaciones?</p>
+                <div class="fieldset__choose">
+                    <label for="si">Si</label>
+                    <input type="radio" name="information" id="si" value="si">
+                    <label for="no">No</label>
+                    <input type="radio" name="information" id="no" value="no">
+                </div>
+            </fieldset>
+                <div class="comment">
+                    <textarea class="commentArea" name="comment" id="comment__area" cols="60" rows="5" placeholder="Comentarios"></textarea>
+                </div>
+                <div class="send">
+                    <input class="send__buttom" type="submit" value="Enviar"> 
+                </div>               
+            </form>   
+        </main>
+        <footer>
+            <h3 id="footerTitle">Nuestras redes</h3>
+                <div>
+                <a class="social" href="https://www.facebook.com/"><img src="../assets/images/facebook.jpg" class="image_social" alt=""></a>
+                <a class="social" href="https://www.instagram.com/"><img src="../assets/images/instagram.jpg" class="image_social" alt=""></a>
+                <a class="social" href="https://twitter.com/"><img src="../assets/images/twitter.jpg" class="image_social" alt=""></a>
+                <a class="social" href="https://www.youtube.com/"><img src="../assets/images/youtube.jpg" class="image_social" alt=""></a>
+                </div>       
+        </footer> 
+    </body>
+</html>
